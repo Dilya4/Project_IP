@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<title> example</title>
+<link rel="stylesheet" href="Project_IP.css">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<script src="project_IP.js" type="text/javascript"></script>
+</head>
+<body>
+
+
+<ul>
+  <li><a class="active" href="#home">Home</a></li>
+  <li><a href="#interest"> Interest</a></li>
+  <li><a href="#map">Map</a></li>
+  <li><a href="#search_engine">Search</a></li>
+  <li><a href="#about">About us</a></li>
+  <label id="label" onclick="document.getElementById('id01').style.display='block'" style="width:auto;"> Sign Up </label>
+  </ul>
+  
+  
+  <div id="id01" class="modal">
+  
+  <form class="modal-content animate user_info" method="POST"  action="index.php">
+      <div class="container2">
+       <h3><b>Registration</b></h3>
+       <!--<label><b>Surname</b></label>
+       <input type="text" placeholder="Enter Surname" name="uname" required>
+
+       <label><b>Firstname</b></label>
+       <input type="text" placeholder="Enter Firstname" name="uname" required>
+
+       <label><b>Email</b></label>
+       <input type="text" placeholder="Enter Email" name="uname" required>
+-->
+       <label><b>User Name</b></label>
+       <input type="text" placeholder="Enter User Name" name="username" required>
+
+       <label><b>Password</b></label>
+       <input type="password" placeholder="Enter Password" name="pass" required>
+
+       <label><b>Confirm Password</b></label>
+       <input type="password" placeholder="Enter Password" name="repass" required>
+        
+       <input type="submit" name="submit">LOG IN</input>
+       <input type="checkbox" checked="checked"> Remember me
+      </div>
+
+       <div class="container" style="background-color:#f1f1f1">
+        <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+      </div>
+  </form>
+  </div>
+<div id="home"></div>
+<div class="hero-image">
+  <div class="hero-text">
+    <h1><strong>Any Idea for travelling?</strong></h1>
+    <p><strong>Find the destination that is the most suitable for you!</strong></p>
+  </div>
+</div>
+
+<div id= "search_engine">
+<p id="search_text"><strong>Which country do you want to get information about?</strong></p>
+
+<form>
+  <input type="text" id= "plane" name="search" placeholder="Search for a destination..">
+</form>
+</div>
+
+<div class="parallax3"></div>
+<div id="interest"></div>
+<div class="row">
+	   <div class="column">
+	   <div class= "card">
+	   <img src="camp.jpg" alt="euh?" style="width:100%">
+	   <div class="container">
+	   <h2>Camping</h2>
+	   <p class="title">want</p>
+	   <p>text text text</p>
+	   <p> <button class="button">See more</button></p>
+	   </div>
+	   </div>
+	   </div>
+	   
+	   <div class="column">
+	   <div class= "card">
+	   <img src="camp.jpg" alt="euh?" style="width:100%">
+	   <div class="container">
+	   <h2>Festivals and events</h2>
+	   <p class="title">want</p>
+	   <p>text text text</p>
+	   <p> <button class="button">See more</button></p>
+	   </div>
+	   </div>
+	   </div>
+	   
+	   
+	   <div class="column">
+	   <div class= "card">
+	   <img src="camp.jpg" alt="euh?" style="width:100%">
+	   <div class="container">
+	   <h2>Spa holidays</h2>
+	   <p class="title">want</p>
+	   <p>text text text</p>
+	   <p> <button class="button">See more</button></p>
+	   </div>
+	   </div>
+	   </div>
+	   
+	   
+	   <div class="column">
+	   <div class= "card">
+	   <img src="camp.jpg" alt="euh?" style="width:100%">
+	   <div class="container">
+	   <h2>Historical</h2>
+	   <p class="title">want</p>
+	   <p>text text text</p>
+	   <p> <button class="button">See more</button></p>
+	   </div>
+	   </div>
+	   </div>
+	   
+	   <div class="column">
+	   <div class= "card">
+	   <img src="camp.jpg" alt="euh?" style="width:100%">
+	   <div class="container">
+	   <h2>Camping</h2>
+	   <p class="title">want</p>
+	   <p>text text text</p>
+	   <p> <button class="button">See more</button></p>
+	   </div>
+	   </div>
+	   </div>
+
+       <div class="column">
+	   <div class= "card">
+	   
+	   <img src="adventure.jpg" alt="eu" style="width:100%">
+	   <div class="container">
+	   <h2>Adventure</h2>
+	   <p class="title">want</p>
+	   <p>text text text</p>
+	   <p> <button class="button">See more</button></p>
+	   </div>
+	   </div>
+	   </div>
+
+
+
+	   <div class="column">
+	   <div class= "card">
+	   <img src="safaris2.jpg" alt="eh?" style="width:100%">
+	   <div class="container">
+	   <h2>Safaris</h2>
+	   <p class="title">want</p>
+	   <p>text text text</p>
+	   <p> <button class="button">See more</button></p>
+	   </div>
+	   </div>
+	   </div>
+
+
+
+	   <div class="column">
+	   <div class= "card">
+	   <img src="boats.jpg" alt="euh" style="width:100%">
+	   <div class="container">
+	   <h2>Arts</h2>
+	   <p class="title">want</p>
+	   <p>text text text</p>
+	   <p> <button class="button">See more</button></p>
+	   </div>
+	   </div>
+	   </div>
+	  </div>
+	  <div class="parallax"></div>
+      
+	  <div id="map"></div>
+      <div class="continent">
+	   <ul id="fr">
+	   <li>America</li>
+	   <li>Europe</li>
+	   <li>Asia</li>
+	   <li>Australia</li>
+	   </ul>
+	   <p>......................................Choice about continents................................
+       maybe we will put icons? or just tables.........................................................
+       ................................................................................................
+       ................................................................................................
+       .........................................................................................
+       ................................................................................................
+       ................................................................................................
+       ................................................................................................
+       ................................................................................................
+       ...................................................................................................
+       ...................................................................................................
+       ..................................................................................................
+       ..................................................................................................
+       ................................................................................................	   </p>
+	   </div>
+
+	   <div class="parallax2"></div>
+
+</html>
+</body>
