@@ -1,8 +1,9 @@
 
+
 body, html {
     height: 100%;
     margin: 0;	
-	/*background-color: #8B0000;*/
+	background-color: #8B0000;
 }
 
 
@@ -78,7 +79,7 @@ body, html {
     width: 50%;
 }
 
-/*ul {
+ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -104,7 +105,7 @@ li a {
     font-style: bold;
      
 	}
-	*/
+	
 #label{
 	display: block;
 	float: right;
@@ -117,11 +118,11 @@ li a {
 	background-color: blue;
 }
 
-/*li a:hover:not(.active) {
+li a:hover:not(.active) {
     background-color: blue;
 
 }
-
+/*
 li a.active {
     color: black;
     background-color: 	#B22222;
@@ -328,151 +329,8 @@ button:hover {
     }
 }
 
-.user_info
-{
-  width: 40%;
-}  
-
-
-
- /*nav bar css cstyle*/
-
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:800);
-.PrimaryNav {
-  list-style: none;
-  margin: 10px auto;
-  max-width: 100%;
-  padding: 0;
-  width: 100%;
-  position: fixed; 
-  z-index: 1; 
-}
-
-.Nav-item {
-  background: #ffffff;
-  display: block;
-  float: left;
-  margin: 0;
-  padding: 0;
-  width: 20%;
   
-  text-align: center;
-}
-.Nav-item:first-child {
-  border-radius: 3px 0 0 3px;
-}
-.Nav-item:last-child {
-  border-radius: 0 3px 3px 0;
-}
-.Nav-item.is-active a {
-  color: #e82d00;
-}
-.Nav-item a {
-  color: #121212;
-  display: block;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  text-decoration: none;
-}
-.Nav-item a:hover {
-  color: #e82d00;
-}
 
-.with-indicator {
-  position: fixed;
-  z-index: 1;
 
-}
-.with-indicator .Nav-item:last-child:before, .with-indicator .Nav-item:last-child:after {
-  content: '';
-  display: block;
-  position: absolute;
-  pointer-events: none;
-  -webkit-transition: left 0.3s ease;
-  transition: left 0.3s ease;
-}
-.with-indicator .Nav-item:last-child:before {
-  border: 6px solid transparent;
-  border-top-color: #e82d00;
-  width: 0;
-  height: 0;
-  top: 0;
-  left: 10%;
-  margin-left: -3px;
-}
-.with-indicator .Nav-item:last-child:after {
-  background: #e82d00;
-  top: -6px;
-  bottom: -6px;
-  left: 0;
-  width: 20%;
-  z-index: -1;
-}
-.with-indicator .Nav-item:nth-child(1).is-active ~ .Nav-item:last-child:after {
-  left: 0%;
-}
-.with-indicator .Nav-item:nth-child(1).is-active ~ .Nav-item:last-child:before {
-  left: 10%;
-}
-.with-indicator .Nav-item:nth-child(2).is-active ~ .Nav-item:last-child:after {
-  left: 20%;
-}
-.with-indicator .Nav-item:nth-child(2).is-active ~ .Nav-item:last-child:before {
-  left: 30%;
-}
-.with-indicator .Nav-item:nth-child(3).is-active ~ .Nav-item:last-child:after {
-  left: 40%;
-}
-.with-indicator .Nav-item:nth-child(3).is-active ~ .Nav-item:last-child:before {
-  left: 50%;
-}
-.with-indicator .Nav-item:nth-child(4).is-active ~ .Nav-item:last-child:after {
-  left: 60%;
-}
-.with-indicator .Nav-item:nth-child(4).is-active ~ .Nav-item:last-child:before {
-  left: 70%;
-}
-.with-indicator .Nav-item:nth-child(1):hover ~ .Nav-item:last-child:after {
-  left: 0% !important;
-}
-.with-indicator .Nav-item:nth-child(1):hover ~ .Nav-item:last-child:before {
-  left: 10% !important;
-}
-.with-indicator .Nav-item:nth-child(2):hover ~ .Nav-item:last-child:after {
-  left: 20% !important;
-}
-.with-indicator .Nav-item:nth-child(2):hover ~ .Nav-item:last-child:before {
-  left: 30% !important;
-}
-.with-indicator .Nav-item:nth-child(3):hover ~ .Nav-item:last-child:after {
-  left: 40% !important;
-}
-.with-indicator .Nav-item:nth-child(3):hover ~ .Nav-item:last-child:before {
-  left: 50% !important;
-}
-.with-indicator .Nav-item:nth-child(4):hover ~ .Nav-item:last-child:after {
-  left: 60% !important;
-}
-.with-indicator .Nav-item:nth-child(4):hover ~ .Nav-item:last-child:before {
-  left: 70% !important;
-}
-.with-indicator .Nav-item:last-child:hover:before, .with-indicator .Nav-item:last-child.is-active:before {
-  left: 90% !important;
-}
-.with-indicator .Nav-item:last-child:hover:after, .with-indicator .Nav-item:last-child.is-active:after {
-  left: 80% !important;
-}
 
-*, *:before, *:after {
-  box-sizing: border-box;
-}
-
-.PrimaryNav:before,
-.PrimaryNav:after {
-  content: " ";
-  display: table;
-}
-
-.PrimaryNav:after {
-  clear: both;
-}
+ 
